@@ -1,3 +1,0 @@
- select * from dba_users;
- 
- select * from ALL_users;
