@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKAR_WEBUI", "AKAR_WEBUI\AKAR_WEBUI.csproj", "{FAF467F1-A5F0-4F85-902A-27D1818525DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKAR_BL", "AKAR_BL\AKAR_BL.csproj", "{9E2555F7-D2B6-4A84-8B9F-580E6E562CA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKAR_DAL", "AKAR_DAL\AKAR_DAL.csproj", "{5E2C45CD-5ACF-4E04-A93D-3F089C975828}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ORTAK MODULLER", "ORTAK MODULLER", "{3CC440F3-9AF9-408F-BF71-E7125D2439CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKAR_OBJ", "AKAR_OBJ\AKAR_OBJ.csproj", "{AD2E8E5F-8F6D-4278-AE1F-C28B22F8F104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKAR_STC", "AKAR_STC\AKAR_STC.csproj", "{267492B5-3743-4965-A85F-F0C690D38971}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAF467F1-A5F0-4F85-902A-27D1818525DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF467F1-A5F0-4F85-902A-27D1818525DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF467F1-A5F0-4F85-902A-27D1818525DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF467F1-A5F0-4F85-902A-27D1818525DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2555F7-D2B6-4A84-8B9F-580E6E562CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2555F7-D2B6-4A84-8B9F-580E6E562CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2555F7-D2B6-4A84-8B9F-580E6E562CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2555F7-D2B6-4A84-8B9F-580E6E562CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2C45CD-5ACF-4E04-A93D-3F089C975828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2C45CD-5ACF-4E04-A93D-3F089C975828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2C45CD-5ACF-4E04-A93D-3F089C975828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2C45CD-5ACF-4E04-A93D-3F089C975828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD2E8E5F-8F6D-4278-AE1F-C28B22F8F104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2E8E5F-8F6D-4278-AE1F-C28B22F8F104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2E8E5F-8F6D-4278-AE1F-C28B22F8F104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2E8E5F-8F6D-4278-AE1F-C28B22F8F104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{267492B5-3743-4965-A85F-F0C690D38971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267492B5-3743-4965-A85F-F0C690D38971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267492B5-3743-4965-A85F-F0C690D38971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267492B5-3743-4965-A85F-F0C690D38971}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD2E8E5F-8F6D-4278-AE1F-C28B22F8F104} = {3CC440F3-9AF9-408F-BF71-E7125D2439CA}
+		{267492B5-3743-4965-A85F-F0C690D38971} = {3CC440F3-9AF9-408F-BF71-E7125D2439CA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7748AD33-62E4-42D1-8C6F-AE72DCAF11C7}
+	EndGlobalSection
+EndGlobal
