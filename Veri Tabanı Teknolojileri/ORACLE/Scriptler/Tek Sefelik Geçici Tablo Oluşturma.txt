@@ -1,6 +1,0 @@
-CREATE TABLE TempTable AS
-SELECT * FROM MBerkayAKAR o WHERE o.ISIM Like '%BERKAY%';
-
-
-
-* yerine istediğin kolonlarıda belirtebilirsin select * into #temp From (subquery) mantıgı ile çalışıyor aynı MSSQL DE olduğu gibi. 

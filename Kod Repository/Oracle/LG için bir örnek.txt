@@ -1,0 +1,54 @@
+/*
+
+        INSERT INTO L_KARGOSURECI
+         ( KARGO_ID, 
+         ALICI_ADI, 
+         ALICI_SOYADI, 
+         KARGO_TIPI, 
+         GONDERIM_TARIHI, 
+         AGIRLIK, 
+         GECERLIFLG, 
+         OLUSTURANID, 
+         OLUSTURANADISOYADI,
+         OLUSTURANBILGISAYAR,
+         OLSTURMATARIHI,
+         GUNCELLEYENID,
+         GUNCELLEYENADISOYADI,
+         GUNCELLEYENTARIHI,
+         GUNCELLEYENBILGISAYARADI
+     
+         )
+         
+         SELECT KARGO_ID, 
+         ALICI_ADI, 
+         ALICI_SOYADI, 
+         KARGO_TIPI, 
+         GONDERIM_TARIHI, 
+         AGIRLIK, 
+         GECERLIFLG, 
+         OLUSTURANID, 
+         OLUSTURANADISOYADI,
+         OLUSTURANBILGISAYAR,
+         OLSTURMATARIHI,
+         GUNCELLEYENID,
+         GUNCELLEYENADISOYADI,
+         GUNCELLEYENTARIHI,
+         GUNCELLEYENBILGISAYARADI FROM T_KARGOSURECI WHERE KARGO_ID = pKARGOID;
+
+             
+         UPDATE T_KARGOSURECI  SET ALICI_ADI = pALICIADI, 
+                                   ALICI_SOYADI = pALICISOYADI, 
+                                   KARGO_TIPI = pKARGOTIPI , 
+                                   GONDERIM_TARIHI = pGONDERIMTARIHI , 
+                                   AGIRLIK = pAGIRLIK , 
+                                   GUNCELLEYENID = pOLUSTURANID,
+                                   GUNCELLEYENADISOYADI = pOLUSTURANADISOYADI  , 
+                                   GUNCELLEYENTARIHI =  sysdate,
+                                   GUNCELLEYENBILGISAYARADI = pOLUSTURANBILGISAYAR 
+                                 WHERE  T_KARGOSURECI.KARGO_ID = pKARGOID;
+                                 
+
+
+     COMMIT;
+     
+     */
